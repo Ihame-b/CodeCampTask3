@@ -3,7 +3,7 @@ import email
 from sqlite3 import Date
 from typing import Optional
 from fastapi import FastAPI, Form
-from phonenumbers import PhoneNumber
+#from phonenumbers import PhoneNumber
 from pydantic import BaseModel, EmailStr
 
 app = FastAPI()
